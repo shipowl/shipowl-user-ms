@@ -1,0 +1,16 @@
+export const SUCCESS = 200;
+export const CREATED = 201;
+export const ACCEPTED = 202;
+export const NOCONTENT = 204;
+export const BADREQUEST = 400;
+export const UN_AUTHORIZED = 401;
+export const FORBIDDEN = 403;
+export const NOTFOUND = 404;
+export const WRONG_DOCS = 406;
+export const TIMEOUT = 408;
+export const CONFLICT = 409;
+export const TOOMANYREQ = 429;
+export const INTERNALSERVER = 500;
+export const BADGATEWAYS = 502;
+export const SERVICEUNAVILABLE = 503;
+export const GATEWAYTIMEOUT = 504;

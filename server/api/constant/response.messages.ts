@@ -1,0 +1,66 @@
+export const MESSAGES = {
+  // KKV Messages
+  ADMIN: {
+    SUCCESS: "User successfully logged in.",
+    ERROR: "Failed to login.",
+    ALREADY_EXISTS: "User already exists",
+    DELETED: "User deleted successfully.",
+    NOT_FOUND: "User not found",
+  },
+  COLLECTIONS: {
+    SUCCESS: "Collection created successfully.",
+    ERROR: "Unable to create collection, Please try again.",
+    ALREADY_EXISTS: "Collection title already exists",
+    DELETED: "Collection deleted successfully.",
+    NOT_FOUND: "Collection not found",
+    FOUND: "Collection found",
+  },
+  BANNER: {
+    SUCCESS: "Banner created successfully.",
+    ERROR: "Unable to create banner, Please try again.",
+    ALREADY_EXISTS: "Banner title already exists",
+    DELETED: "Banner deleted successfully.",
+    NOT_FOUND: "Banner not found",
+    FOUND: "Banner Found Successfully",
+  },
+  ARTIST: {
+    SUCCESS: "Artist created successfully.",
+    ERROR: "Unable to create artist, Please try again.",
+    ALREADY_EXISTS: "Artist title already exists",
+    DELETED: "Artist deleted successfully.",
+    NOT_FOUND: "Artist not found",
+  },
+  BRAND: {
+    SUCCESS: "Brand created successfully.",
+    ERROR: "Unable to create brand, Please try again.",
+    ALREADY_EXISTS: "Brand title already exists",
+    DELETED: "Brand deleted successfully.",
+    NOT_FOUND: "Brand not found",
+  },
+  HEALTH_CHECK: {
+    SUCCESS: "Admin service is working",
+    ERROR: "Admin service not working",
+  },
+  LIKES: {
+    SUCCESS: "Likes created successfully.",
+    ERROR: "Unable to create likes, Please try again.",
+    ALREADY_EXISTS: "likes title already exists",
+    DELETED: "likes deleted successfully.",
+    NOT_FOUND: "Likes not found",
+  },
+  VIEWS: {
+    SUCCESS: "Likes created successfully.",
+    ERROR: "Unable to create likes, Please try again.",
+    ALREADY_EXISTS: "Likes title already exists",
+    DELETED: "Likes deleted successfully.",
+    NOT_FOUND: "Likes not found",
+  },
+  JWT: {
+    ERROR: "Failed to authenticate user",
+    GENERATE_ERROR: "Failed to sign jwt token",
+    USER_ID_ERROR: "Invalid user id",
+    SECRET_ERROR: "JWT secret missing",
+    EXPIRED: "Token expired",
+    SUCCESS: "Success",
+  },
+};
